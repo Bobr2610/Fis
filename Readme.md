@@ -2,9 +2,9 @@
 
 ## Содержание
 
-1. [Теория (полные ответы)](./teoriya_polnye_otvety.md)
-2. [Выводы формул](./vyviody_formul_polnye.md)
-3. [Задачи с решениями](./zadachi_polnye_reshenia.md)
+1. [Теория (полные ответы)](./answers/teoriya_polnye_otvety.md)
+2. [Выводы формул](./answers/vyviody_formul_polnye.md)
+3. [Задачи с решениями](./answers/zadachi_polnye_reshenia.md)
 
 ---
 

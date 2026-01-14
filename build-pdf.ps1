@@ -3,7 +3,7 @@
 
 Write-Host "Собираю PDF..." -ForegroundColor Cyan
 
-pandoc teoriya_polnye_otvety.md vyviody_formul_polnye.md zadachi_polnye_reshenia.md `
+pandoc answers/teoriya_polnye_otvety.md answers/vyviody_formul_polnye.md answers/zadachi_polnye_reshenia.md `
     -o Answers.pdf `
     --pdf-engine=xelatex `
     -V geometry:margin=2cm `
