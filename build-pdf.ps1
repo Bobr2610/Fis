@@ -7,7 +7,8 @@ pandoc teoriya_polnye_otvety.md vyviody_formul_polnye.md zadachi_polnye_reshenia
     -o Answers.pdf `
     --pdf-engine=xelatex `
     -V geometry:margin=2cm `
-    -V mainfont="Arial" `
+    -V mainfont="Cambria" `
+    -V mathfont="Cambria Math" `
     --from markdown+tex_math_single_backslash
 
 if ($LASTEXITCODE -eq 0) {
