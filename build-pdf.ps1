@@ -9,7 +9,7 @@ pandoc answers/teoriya_polnye_otvety.md answers/vyviody_formul_polnye.md answers
     -V geometry:margin=2cm `
     -V mainfont="Cambria" `
     -V mathfont="Cambria Math" `
-    --from markdown+tex_math_single_backslash
+    --from markdown+tex_math_single_backslash-yaml_metadata_block
 
 if ($LASTEXITCODE -eq 0) {
     Write-Host "PDF успешно создан: Answers.pdf" -ForegroundColor Green
